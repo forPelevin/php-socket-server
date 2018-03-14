@@ -1,0 +1,21 @@
+{
+  "name": "gukasov/php-socket-server",
+  "description": "The library represents socket server on PHP. The server can handle multiple connections at the time.",
+  "minimum-stability": "dev",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "vlad",
+      "email": "forpelevin@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=7.1.0",
+    "gukasov/php_brackets_checker": "~1.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Gukasov\\": "src"
+    }
+  }
+}
